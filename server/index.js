@@ -16,7 +16,7 @@ app.use(cors());
 
 //https://www.mongodb/cloud/atlas
 const CONNECTION_URL =
-    "mongodb+srv://mehmeteray:mehmeteray123@cluster0.cpokm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+    "mongodb+srv://mehmeteray:mehmeteray12@cluster0.cpokm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const PORT = process.env.PORT || 5000;
 mongoose
     .connect(CONNECTION_URL, {
